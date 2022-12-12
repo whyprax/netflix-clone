@@ -7,7 +7,6 @@ import { useAuthListerner } from "./hooks";
 
 export default function App() {
   const { user } = useAuthListerner;
-  console.log(user);
 
   return (
     <BrowserRouter>
